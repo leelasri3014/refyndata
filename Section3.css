@@ -1,0 +1,76 @@
+.rectangle2 {
+    width: 1520px;
+    height: 563px;
+    background-color: #121e2fb5;
+    position: relative;
+    display: flex;
+  }
+
+.section-hexagonal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .section-hexagonal img {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .section-single {
+    text-align: right;
+  }
+
+  .right {
+    height: 30px;
+    width: 499px;
+  }
+  
+  .right .text-wrapper {
+    color: #000000;
+    padding: 76px 0 0 80px;
+    font-family: 'Inria Serif', serif;
+    font-size: 36px;
+    font-weight: 700;
+    height: 30px;
+    left: -65px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    top: 0;
+    width: 499px;
+  }
+  
+  .right1 {
+    height: 290px;
+    width: 769px;
+    position: absolute;
+  }
+  
+  .right1 .enterprise-data-body {
+    color: #000000;
+    font-family: 'Inria Serif', serif;
+    font-size: 24px;
+    font-weight: 400;
+    height: 310px;
+    right: -40px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    bottom: -160px;
+    width: 471px;
+  }
+  
+  .read-more-link2 {
+    color: #000000;
+    font-family: 'Inria Serif', serif;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: auto;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+    left: -261px;
+    bottom: -80px;
+  }

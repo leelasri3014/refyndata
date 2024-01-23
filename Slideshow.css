@@ -1,0 +1,22 @@
+/* Slideshow */
+
+.slideshow {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 1400px;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+.slide {
+  display: inline-block;
+  height: 100px;
+  width: 150px; /* Set your desired width */
+  border-radius: 40px;
+  margin-right: 10px; /* Optional margin between images */
+  background-size: cover; /* Ensure the background image covers the container */
+  background-position: center; /* Center the background image */
+}

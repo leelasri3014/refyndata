@@ -1,0 +1,156 @@
+
+.about-page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .s1 {
+    height: 145px;
+    width: 540px;
+  }
+  
+  .s1 .text-wrapper {
+    color: #000000;
+    padding: 76px 0 0 80px;
+    font-family: 'Inria Serif', serif;
+    font-size: 24px;
+    font-weight: 400;
+    height: 145px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    top: 0;
+    width: 540px;
+    left: 0px;
+  }
+  
+  .s2 {
+    height: 290px;
+    width: 364px;
+    position: relative;
+  }
+  
+  .s2 .text-wrapper {
+    color: #000000;
+    font-family: 'Inria Serif', serif;
+    font-size: 24px;
+    font-weight: 400;
+    height: 290px;
+    right: -80px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 364px;
+    bottom: -120px;
+  }
+  
+  
+  .about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    position: relative;
+    top: -370px;
+    right: -160px;
+  }
+  
+  .about-image .a-image {
+    width: 640px;
+    height: 384px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+    z-index: 0;
+  }
+
+  .rec {
+    width: 507px;
+    height: 199px;
+    background-color: #121e2f9e;
+    position: relative;
+    top: -508px;
+    right: -565px;
+    z-index:1;
+  }
+
+  .rec-text {
+    height: 116px;
+    width: 436px;
+  }
+
+  .rec-text .text-wrapper {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    height: 116px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 436px;
+    right: -40px;
+    bottom: -22px;
+  }
+
+  .s3 {
+    height: 348px;
+    width: 1280px;
+    position: relative;
+  }
+  
+  .s3 .text-wrapper {
+    color: #000000;
+    font-family: 'Inria Serif', serif;
+    font-size: 24px;
+    font-weight: 400;
+    height: 319px;
+    right: -80px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 1280px;
+    top: -400px;
+  }
+
+  .s4 {
+    height: 189px;
+    width: 1280px;
+    position: relative;
+  }
+  
+  .s4 .text-wrapper {
+    color: #000000;
+    font-family: 'Inria Serif', serif;
+    font-size: 24px;
+    font-weight: 400;
+    height: 319px;
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 1280px;
+    top: -320px;
+    right: -80px;
+  }
+
+  .s4 p:last-child {
+    margin-bottom: 0;
+  }
+
+  .s1,
+.s2,
+.about-image,
+.s3,
+.s4 {
+  margin-bottom: 20px;
+}
+
+.s1,
+.s2,
+.s3,
+.s4 {
+  width: 100%;
+}

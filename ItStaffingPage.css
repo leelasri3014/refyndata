@@ -1,0 +1,162 @@
+.t1 {
+    height: 145px;
+    width: 1400px;
+    position: relative;
+  }
+  
+  .t1 .text-wrapper {
+    color: #000000;
+    font-family: 'Inria Serif', serif;
+    font-size: 24px;
+    font-weight: 400;
+    height: 145px;
+    right: -80px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 1400px;
+    bottom: -90px;
+  }
+
+  .t2 {
+    height: 232px;
+    width: 540px;
+    position: relative;
+  }
+  
+  .t2 .text-wrapper {
+    color: #000000;
+    font-family: 'Inria Serif', serif;
+    font-size: 24px;
+    font-weight: 400;
+    height: 232px;
+    right: -80px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 540px;
+    bottom: -230px;
+  }
+  
+  
+  .itstaffing-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    position: relative;
+    top: -40px;
+    right: -200px;
+  }
+  
+  .itstaffing-image .i-image {
+    width: 640px;
+    height: 384px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+  }
+
+  .itstaffing-image1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 450px;
+    position: relative;
+    bottom: -110px;
+    left: -120px;
+  }
+  
+  .itstaffing-image1 .i-image1 {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+    height: 384px;
+    width: 670px;
+    object-fit: cover;
+  }
+  
+  .t3 {
+    height: 476px;
+    width: 540px;
+  }
+  
+  .t3 .text-wrapper {
+    color: #000000;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inria Serif', serif;
+    font-size: 24px;
+    font-weight: 400;
+    height: 476px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 540px;
+    top: -370px;
+    right: -850px;
+  }
+
+  .t4 {
+    height: 339px;
+    width: 1400px;
+  }
+  
+  .t4 .text-wrapper {
+    color: #000000;
+    align-self: stretch;
+    font-family: 'Inria Serif', serif;
+    font-size: 24px;
+    font-weight: 400;
+    height: 339px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 1400px;
+    top: -290px;
+    right: -80px;
+  }
+
+  .t5 {
+    height: 203px;
+    width: 412px;
+    position: relative;
+  }
+  
+  .t5 .text-wrapper {
+    color: #000000;
+    font-family: 'Inria Serif', serif;
+    font-size: 24px;
+    font-weight: 400;
+    height: 203px;
+    right: -80px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 412px;
+    top: -30px;
+  }
+  
+  
+  .itstaffing-image2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    position: relative;
+    top: -400px;
+    right: -110px;
+  }
+  
+  .itstaffing-image2 .i-image2 {
+    width: 768px;
+    height: 512px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+  }

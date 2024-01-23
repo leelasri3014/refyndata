@@ -1,0 +1,230 @@
+/* FooterStyles.css */
+
+.footer-container {
+    background-color: #121e2fd7;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inria Serif', serif;
+  }
+
+  .address-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .address {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+  }
+  
+  .address,
+.contact {
+  flex: 1;
+}
+
+.office {
+  display: flex;
+  justify-content: space-between;
+}
+
+.office-item {
+  width: 48%;
+}
+
+.office-item h4 {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+}
+
+.office-item + .office-item {
+    margin-left: 80px;
+  }
+
+.innovation-center h4 {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+
+.office p,
+.innovation-center p,
+.contact-info p {
+  margin: 5px 0;
+}
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social-container {
+    padding: 30px 5px;
+  }
+
+  .contact-info p,
+  .social-container h3 {
+    margin: 5px 0;
+  }
+
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+
+  a.linkedin {
+    color: #0A66C2;
+  }
+  
+  a.facebook {
+    color: #4968ad;
+  }
+  
+  a.twitter {
+    color: #49a1eb;
+  }
+  
+  a.instagram {
+    color: black;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button-container button {
+    background-color: #fff;
+    color: #333;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .col-6 {
+    width:50%;
+    display: inline-table;
+}
+
+footer {
+    background-color: #121e2fd7;
+    padding: 3em 4em 2em;
+}
+    
+    footer .row {
+        margin: 2em 0;
+        font-family: lato;
+        color: #fff;
+        position: relative;
+        border-bottom: 1px solid #cecece;
+    }
+    
+    footer ul {
+        padding:0;
+        -webkit-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;        
+    }
+
+        footer ul li {
+            list-style-type: none;
+            padding:0;            
+            -webkit-transition: all .5s ease-in-out;            
+            transition: all .5s ease-in-out;
+            line-height: 2;            
+        }  
+
+        footer .footer-cat, #newsletter span {
+            font-size: 20px;
+        }
+
+        .footer-cat-links a {
+            color: #cecece;
+            text-decoration: none;
+            position: relative;
+        }
+
+        .footer-cat-links.active > li a {
+            pointer-events: auto;
+        }
+
+        .footer-cat-links a:after {
+            top: 21px;
+            content: "";
+            display: block;
+            height: 2px;
+            left: 50%;
+            position: absolute;
+            width: 0;
+            background: #fff;
+            
+            -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        }
+
+        .footer-cat-links a:hover:after, .footer-cat-links a:focus:after {
+            width: 100%;
+            left: 0;
+        }
+
+        .footer-cat-links1 a {
+            color: #cecece;
+            text-decoration: none;
+            position: relative;
+        }
+
+        .footer-cat-links1.active > li a {
+            pointer-events: auto;
+        }
+
+        .footer-cat-links1 a:after {
+            top: 21px;
+            content: "";
+            display: block;
+            height: 2px;
+            left: 50%;
+            position: absolute;
+            width: 0;
+            background: #fff;
+            
+            -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        }
+
+        .footer-cat-links1 a:hover:after, .footer-cat-links a:focus:after {
+            width: 100%;
+            left: 0;
+        }
+
+    #copyright {
+        text-align: center;
+        color:#fff;
+        font-family: lato;
+    }
+ 
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+    
+    footer {
+        padding-right:3em;
+        padding-left:3em;
+    }
+
+    .col-6 {
+        display: block;
+        width: 100%;
+        padding-bottom: 1em;
+    }
+}
+
+.footer-cat-links, .footer-cat-links1 {
+    display: inline-block;
+    margin-right: 20px; 
+}
+

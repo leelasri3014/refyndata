@@ -1,0 +1,12 @@
+.header-image-container {
+    margin-top: 0px;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .header-image-container .image-container {
+    width: 100%;
+    height: auto;
+    left: -400px;
+    z-index: 2;
+  }
